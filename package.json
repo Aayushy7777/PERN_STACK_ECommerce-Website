@@ -1,30 +1,45 @@
 {
-  "name": "ecommerce",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon server.js",
-    "server": "nodemon server.js",
-    "test": "jest --watch"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "axios": "^0.24.0",
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
-    "env": "^0.0.2",
-    "express": "^4.17.1",
-    "express-rate-limit": "^5.5.0",
-    "helmet": "^5.0.2",
-    "jsonwebtoken": "^8.5.1",
-    "multer": "^1.4.4",
-    "pg": "^8.7.1"
+    "@reduxjs/toolkit": "^1.6.1",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "babel-jest": "^26.6.0",
+    "draft-js": "^0.11.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.2",
+    "web-vitals": "^1.1.2"
   },
-  "devDependencies": {
-    "jest": "^27.3.1",
-    "nodemon": "^2.0.14"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
